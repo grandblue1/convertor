@@ -26,9 +26,7 @@ function App() {
     );
   const downloadRef = useRef(null);
   const ref = useRef(null);
-  const f = createFFmpeg({
-    log: true
-  });
+  const f = createFFmpeg();
     f.setLogger(({ message  }) => {
         setLogg(message);
     });
