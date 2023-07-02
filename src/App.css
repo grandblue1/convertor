@@ -77,3 +77,6 @@
 .tooltip:hover .tooltip-item {
   visibility: visible;
 }
+img, video{
+  max-width: 200px;
+}
